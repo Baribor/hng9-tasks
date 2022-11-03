@@ -1,1 +1,1 @@
-web: gunicorn hng_stage_one.wsgi --log-file -
+web: gunicorn hng_project.wsgi --log-file -

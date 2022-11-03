@@ -1,6 +1,4 @@
 from django.urls import path
-from app.views import get_user
+from app.views import get_evaluation
 
-urlpatterns = [
-    path('getUser/', get_user),
-]
+urlpatterns = [path("evaluate/", get_evaluation)]
