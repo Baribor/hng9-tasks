@@ -4,7 +4,7 @@ from django.http import JsonResponse, HttpRequest
 from django.views.decorators.csrf import csrf_exempt
 
 
-operation_types = {"multiplicatio n": "*", "addition": "+", "subtraction": "-"}
+operation_types = {"multiplication": "*", "addition": "+", "subtraction": "-"}
 
 openai.api_key = os.environ.get("API_KEY")
 
